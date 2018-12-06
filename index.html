@@ -1,63 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>
-		X AND O - Simple Game With JavaScript
-	</title>
-	<link rel='stylesheet' href="style.css">
-	<script src="jquery.min.js"></script>
-	<script src="script.js"></script>
-</head>
-<body>
-	<div class="wrapper">
-		<div id="game-data">
-			<div class="cell">
-				<script>
-					document.write("<div style='color: black' class='player'>Player " + currentPlayer + "'s Turn</div>");
-				</script>
-				<script type="text/javascript">
-					document.write("<div class='testscore'></div>");
-				</script>
-				<br><br>
-				<button onclick="cleargame()">Refresh</button>
-			</div>
-		</div>
+  <head>
+    <title>X AND O - Simple Game With JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="game-data">
+        <div class="cell">
+          <script>
+            document.write(
+              "<div style='color: black' class='player'>Player " +
+                currentPlayer +
+                "'s Turn</div>"
+            );
+          </script>
+          <script type="text/javascript">
+            document.write("<div class='testscore'></div>");
+          </script>
+          <br /><br />
+          <button onclick="cleargame()">Refresh</button>
+        </div>
+      </div>
 
-		<div id="game-box">
-			<div class="row">
-				<div id="1" class="cell">
-					<div class="text"></div>
-				</div>
-				<div id="2" class="cell">
-					<div class="text"></div>
-				</div>
-				<div id="3" class="cell">
-					<div class="text"></div>
-				</div>
-			</div>
-			<div class="row">
-				<div id="4" class="cell">
-					<div class="text"></div>
-				</div>
-				<div id="5" class="cell">
-					<div class="text"></div>
-				</div>
-				<div id="6" class="cell">
-					<div class="text"></div>
-				</div>
-			</div>
-			<div class="row">
-				<div id="7" class="cell">
-					<div class="text"></div>
-				</div>
-				<div id="8" class="cell">
-					<div class="text"></div>
-				</div>
-				<div id="9" class="cell">
-					<div class="text"></div>
-				</div>
-			</div>		
-		</div>
-	</div>
-</body>
+      <div id="game-box">
+        <div class="row">
+          <div id="1" class="cell"><div class="text"></div></div>
+          <div id="2" class="cell"><div class="text"></div></div>
+          <div id="3" class="cell"><div class="text"></div></div>
+        </div>
+        <div class="row">
+          <div id="4" class="cell"><div class="text"></div></div>
+          <div id="5" class="cell"><div class="text"></div></div>
+          <div id="6" class="cell"><div class="text"></div></div>
+        </div>
+        <div class="row">
+          <div id="7" class="cell"><div class="text"></div></div>
+          <div id="8" class="cell"><div class="text"></div></div>
+          <div id="9" class="cell"><div class="text"></div></div>
+        </div>
+      </div>
+      <footer style="text-align: center">
+        <a href="">By Adavize Ozorku</a>
+      </footer>
+    </div>
+  </body>
 </html>
